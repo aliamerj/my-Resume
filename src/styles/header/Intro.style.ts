@@ -60,7 +60,7 @@ export const TitleItemStyle = styled("div")(({ theme }) => ({
   height: "50px",
   fontSize: "30px",
   fontWeight: "bold",
-  color: "#534340",
+  color: "MidnightBlue",
   display: "flex",
   alignItems: "center",
 }));
