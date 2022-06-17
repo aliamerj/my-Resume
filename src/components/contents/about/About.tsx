@@ -4,7 +4,6 @@ import {
   AwardStyle,
   AwardTextsStyle,
   AwardTitle,
-  CardContainerStyle,
   CardStyle,
   ContainerStyle,
   DescriptionStyle,
@@ -15,8 +14,6 @@ import {
   TitleStyle,
 } from "../../../styles/contents/about.style";
 import devPhoto from "../../../image/Devloper.jpg";
-const web_Devloper_page =
-  "https://skywell.software/wp-content/uploads/2018/12/web-development-1024x605.jpg";
 
 const About = () => {
   return (

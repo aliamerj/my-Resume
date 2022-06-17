@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import {
   ContainerStyle,
   DescriptionStyle,
@@ -29,7 +28,7 @@ const Intro = () => {
                   <h3>Full Stack Web Developer</h3>
                 </TitleItemStyle>
                 <TitleItemStyle>
-                  <h3>Web Developer</h3>
+                  <h3>Software Engineering</h3>
                 </TitleItemStyle>
               </TitleWrapperStyle>
             </TitleStyle>
