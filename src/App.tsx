@@ -1,4 +1,5 @@
 import Content from "./components/contents/Content";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
         <br />
         <hr />
         <Content />
+        <br />
+        <hr />
+        <Footer />
       </div>
     </>
   );

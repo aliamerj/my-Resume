@@ -42,7 +42,7 @@ const CertificationsList = () => {
         <AccordionDetails>
           <CertificateContainer>
             {myCertificates.map((cert) => (
-              <Certfications certificate={cert} />
+              <Certfications key={cert.id} certificate={cert} />
             ))}
           </CertificateContainer>
         </AccordionDetails>
