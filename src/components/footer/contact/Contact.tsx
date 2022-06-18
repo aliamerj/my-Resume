@@ -21,13 +21,14 @@ import { Alert, AlertTitle } from "@mui/material";
 const Contact = () => {
   const formRef = useRef() as React.LegacyRef<HTMLFormElement>;
   const [done, setDone] = useState(false);
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         "service_0278jhs",
         "template_azrke0s",
-        e.target,
+        `${e.target}`,
         `M3PNytkF0RPjKCPL5`
       )
       .then(

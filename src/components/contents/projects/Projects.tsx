@@ -21,7 +21,13 @@ const Projects = () => {
       </TextStyle>
       <ListStyle>
         {myPrjects.map((project) => (
-          <Project key={project.id} image={project.img} link={project.link} />
+          <Project
+            key={project.id}
+            img={project.img}
+            link={project.link}
+            name={project.name}
+            description={project.description}
+          />
         ))}
       </ListStyle>
     </ContainerStyle>

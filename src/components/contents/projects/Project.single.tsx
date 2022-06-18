@@ -6,8 +6,14 @@ import {
   ContainerStyle,
   ImageStyle,
 } from "../../../styles/contents/project.style";
+interface ProjectType {
+  img: string;
+  link: string;
+  name: string;
+  description: string;
+}
 
-const Project = ({ image, link }: { image: string; link: string }) => {
+const Project = ({ img, link, name, description }: ProjectType) => {
   return (
     <ContainerStyle>
       <BrowserStyle>
@@ -16,11 +22,11 @@ const Project = ({ image, link }: { image: string; link: string }) => {
         <CircleStyle></CircleStyle>
       </BrowserStyle>
       <a href={link} target="_blank" rel="noreferrer">
-        <ImageStyle src={image} alt="image" />
+        <ImageStyle src={img} alt="image" />
       </a>
       <CardContentStyle>
         <Typography gutterBottom variant="h5" component="div" marginX="10px">
-          Lizard
+          {name}
         </Typography>
         <Typography
           variant="body2"
@@ -28,7 +34,7 @@ const Project = ({ image, link }: { image: string; link: string }) => {
           component="div"
           marginX="10px"
         >
-          Lizards| are a widespread group of squamate reptiles
+          {description}
         </Typography>
       </CardContentStyle>
     </ContainerStyle>
