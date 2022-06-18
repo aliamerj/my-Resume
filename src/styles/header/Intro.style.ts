@@ -40,9 +40,12 @@ export const TitleStyle = styled("div")(() => ({
   height: "50px",
   overflow: "hidden",
 }));
-export const TitleWrapperStyle = styled("div")(() => ({
+export const TitleWrapperStyle = styled("div")(({ theme }) => ({
   height: "100%",
   animation: `${move} 9s ease-in-out infinite alternate`,
+  [theme.breakpoints.down("md")]: {
+    animation: `${moveMobile} 9s ease-in-out infinite alternate`,
+  },
 }));
 const move = keyframes({
   "from, 25%, 50%,  to": {
@@ -53,6 +56,17 @@ const move = keyframes({
   },
   "50%": {
     transform: "translateY(-50px)",
+  },
+});
+const moveMobile = keyframes({
+  "from, 25%, 50%,  to": {
+    transform: "translate(0,0,0)",
+  },
+  "25%": {
+    transform: "translateY(17px)",
+  },
+  "50%": {
+    transform: "translateY(-60px)",
   },
 });
 

@@ -10,6 +10,7 @@ import {
   SkillName,
   SkillsContainer,
   SkillsWrapper,
+  SkillTitle,
 } from "../../../styles/contents/skillAndTech.style";
 
 const SkillAndTech = () => {
@@ -21,9 +22,11 @@ const SkillAndTech = () => {
             backgroundColor: "AntiqueWhite",
           }}
         >
-          <Typography component="h2" variant="inherit" marginLeft="45%">
-            Skills & technology
-          </Typography>
+          <SkillTitle>
+            <Typography component="h2" variant="inherit">
+              Skills & technology
+            </Typography>
+          </SkillTitle>
         </AccordionSummary>
         <AccordionDetails>
           <SkillsWrapper>

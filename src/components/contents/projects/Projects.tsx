@@ -12,11 +12,11 @@ const Projects = () => {
   return (
     <ContainerStyle>
       <TextStyle>
-        <TitleStyle>Create & inspire. It's Lama</TitleStyle>
+        <TitleStyle>My projects & work experience </TitleStyle>
         <DescriptionStyle>
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          I've worked on many projects, but I chose these specific projects that
+          reflect my work experience. I tried to make each project uses a
+          different technology or a different implementation
         </DescriptionStyle>
       </TextStyle>
       <ListStyle>

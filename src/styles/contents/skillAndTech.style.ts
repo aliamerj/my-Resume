@@ -21,3 +21,8 @@ export const SkillsWrapper = styled("div")(() => ({
   flexWrap: "wrap",
   justifyContent: "space-between",
 }));
+export const SkillTitle = styled("div")(({ theme }) => ({
+  [theme.breakpoints.up("md")]: {
+    marginLeft: "45%",
+  },
+}));

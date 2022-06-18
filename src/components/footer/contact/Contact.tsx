@@ -12,7 +12,6 @@ import {
   InputStyle,
   TextareaStyle,
   ButtonStyle,
-  IconInfoItemStyle,
   InfoWayStyle,
 } from "../../../styles/footer/contact.style";
 import emailjs from "emailjs-com";
@@ -43,7 +42,7 @@ const Contact = () => {
   };
   return (
     <>
-      <ContainerStyle>
+      <ContainerStyle id="contact">
         <WrapperStyle>
           <LeftStyle>
             <TitleStyle>contact with me ....</TitleStyle>
