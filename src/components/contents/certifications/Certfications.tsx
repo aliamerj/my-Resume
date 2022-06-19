@@ -16,7 +16,13 @@ type CertificateObject = {
 const Certfications = ({ certificate }: { certificate: CertificateObject }) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea
+        onClick={() =>
+          certificate.link !== "#"
+            ? window.open(certificate.link, "_blank")
+            : null
+        }
+      >
         <CardMedia
           component="img"
           height="140"

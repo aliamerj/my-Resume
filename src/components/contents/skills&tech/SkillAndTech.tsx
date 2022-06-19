@@ -4,7 +4,7 @@ import {
   AccordionSummary,
   Typography,
 } from "@mui/material";
-import { mySkills } from "../../../fakeDATA/skillsAndTech";
+import { mySkills } from "../../../_DATA_/skillsAndTech";
 import {
   ImageSkillStyle,
   SkillName,

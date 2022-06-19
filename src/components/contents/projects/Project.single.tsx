@@ -1,10 +1,16 @@
-import { Typography } from "@mui/material";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Typography,
+} from "@mui/material";
 import {
   BrowserStyle,
   CardContentStyle,
+  CardDescriptionStyle,
   CircleStyle,
   ContainerStyle,
-  ImageStyle,
 } from "../../../styles/contents/project.style";
 interface ProjectType {
   img: string;
@@ -21,22 +27,35 @@ const Project = ({ img, link, name, description }: ProjectType) => {
         <CircleStyle></CircleStyle>
         <CircleStyle></CircleStyle>
       </BrowserStyle>
-      <a href={link} target="_blank" rel="noreferrer">
-        <ImageStyle src={img} alt="image" />
-      </a>
-      <CardContentStyle>
-        <Typography gutterBottom variant="h5" component="div" marginX="10px">
-          {name}
-        </Typography>
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          component="div"
-          marginX="10px"
+      <Card>
+        <CardActionArea
+          onClick={() => (link !== "#" ? window.open(link, "_blank") : null)}
         >
-          {description}
-        </Typography>
-      </CardContentStyle>
+          <CardMedia
+            component="img"
+            height="45%"
+            image={img}
+            alt="green iguana"
+          />
+          <CardContent>
+            <CardContentStyle>
+              <Typography variant="h4" component="h4">
+                {name}
+              </Typography>
+            </CardContentStyle>
+            <CardDescriptionStyle>
+              <Typography
+                gutterBottom
+                variant="caption"
+                component="p"
+                fontSize="115%"
+              >
+                {description}
+              </Typography>
+            </CardDescriptionStyle>
+          </CardContent>
+        </CardActionArea>
+      </Card>
     </ContainerStyle>
   );
 };

@@ -1,4 +1,4 @@
-import { myPrjects } from "../../../fakeDATA/projects";
+import { myPrjects } from "../../../_DATA_/projects";
 import {
   ContainerStyle,
   TextStyle,
@@ -15,8 +15,8 @@ const Projects = () => {
         <TitleStyle>My projects & work experience </TitleStyle>
         <DescriptionStyle>
           I've worked on many projects, but I chose these specific projects that
-          reflect my work experience. I tried to make each project uses a
-          different technology or a different implementation
+          reflect my work experience and capability. I tried to make each
+          project uses a different technology or a different implementation
         </DescriptionStyle>
       </TextStyle>
       <ListStyle>

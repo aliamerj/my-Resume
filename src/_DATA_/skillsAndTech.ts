@@ -52,6 +52,12 @@ export const mySkills = [
   },
   {
     id: 10,
+    title: "Testing",
+    image:
+      "https://banner2.cleanpng.com/20180408/bhe/kisspng-software-testing-test-automation-manual-testing-hp-job-5aca3421c05d03.7145920615232010577879.jpg",
+  },
+  {
+    id: 11,
     title: "Good communication skills",
     image:
       "https://mpng.subpng.com/20180409/cjq/kisspng-computer-icons-real-communication-an-introduction-comunication-5acb38f92c6055.5324817615232678331818.jpg",

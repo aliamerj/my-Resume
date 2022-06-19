@@ -9,7 +9,7 @@ import {
   TitleStyle,
 } from "../../../styles/contents/about.style";
 import devPhoto from "../../../image/Devloper.jpg";
-import { aboutMe } from "../../../fakeDATA/aboutMe";
+import { aboutMe } from "../../../_DATA_/aboutMe";
 
 const About = () => {
   return (

@@ -28,17 +28,13 @@ export const CircleStyle = styled("div")(() => ({
   margin: "3px",
   backgroundColor: "white",
 }));
-export const ImageStyle = styled("img")(() => ({
-  width: "100%",
-  height: "60%",
-  transition: "all 10s ease",
-  ":hover": {
-    transform: "translateY(-100%)",
-  },
-}));
 
 export const CardContentStyle = styled("div")(() => ({
   display: "flex",
   flexDirection: "column",
   alignItems: "start",
+}));
+export const CardDescriptionStyle = styled("div")(() => ({
+  display: "flex",
+  flexDirection: "row",
 }));
