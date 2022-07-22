@@ -6,6 +6,7 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
   flexDirection: "column",
   alignItems: "center",
   textAlign: "center",
+  marginBottom: "5%",
   [theme.breakpoints.down("md")]: {
     padding: "10px",
   },
@@ -19,7 +20,7 @@ export const TextStyle = styled("div")(({ theme }) => ({
 }));
 export const TitleStyle = styled("h1")(() => ({
   fontSize: "50px",
-  fontWeight: "600",
+  fontWeight: "600px",
 }));
 
 export const DescriptionStyle = styled("p")(({ theme }) => ({
@@ -34,4 +35,5 @@ export const ListStyle = styled("div")(() => ({
   display: "flex",
   flexWrap: "wrap",
   justifyContent: "space-between",
+  flexDirection: "row",
 }));

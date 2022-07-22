@@ -6,7 +6,8 @@ import {
   DescriptionStyle,
   ListStyle,
 } from "../../../styles/contents/projects.style";
-import Project from "./Project.single";
+import SingleProject from "./Project.single";
+import { CardsContentStyle } from "../../../styles/contents/project.style";
 
 const Projects = () => {
   return (
@@ -21,13 +22,7 @@ const Projects = () => {
       </TextStyle>
       <ListStyle>
         {myPrjects.map((project) => (
-          <Project
-            key={project.id}
-            img={project.img}
-            link={project.link}
-            name={project.name}
-            description={project.description}
-          />
+          <SingleProject key={project.id} project={project} />
         ))}
       </ListStyle>
     </ContainerStyle>
