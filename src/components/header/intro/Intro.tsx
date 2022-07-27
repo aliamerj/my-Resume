@@ -1,4 +1,5 @@
 import {
+  AlterTextStyle,
   ContainerStyle,
   DescriptionStyle,
   ImageContainerStyle,
@@ -32,6 +33,11 @@ const Intro = () => {
                 </TitleItemStyle>
               </TitleWrapperStyle>
             </TitleStyle>
+            <AlterTextStyle>
+              <TitleItemStyle>
+                <h3>I'm Full Stack Web Developer</h3>
+              </TitleItemStyle>
+            </AlterTextStyle>
             <DescriptionStyle>
               I can design and develop any type of websites you ask for , modern
               websites, web services.{"\n"} And all my websites are Secure, Fast

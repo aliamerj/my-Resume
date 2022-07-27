@@ -12,6 +12,11 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
     padding: "40px",
   },
 }));
+export const AlterTextStyle = styled("div")(({ theme }) => ({
+  [theme.breakpoints.up("sm")]: {
+    display: "none",
+  },
+}));
 
 export const LeftStyle = styled("div")(({ theme }) => ({
   flex: 1,
@@ -44,9 +49,12 @@ export const NameStyle = styled("h1")(() => ({
   fontFamily: "Mochiy Pop One",
   fontSize: "60px",
 }));
-export const TitleStyle = styled("div")(() => ({
+export const TitleStyle = styled("div")(({ theme }) => ({
   height: "40px",
   overflow: "hidden",
+  [theme.breakpoints.down("sm")]: {
+    display: "none",
+  },
 }));
 export const TitleWrapperStyle = styled("div")(({ theme }) => ({
   animation: `${move} 9s ease-in-out infinite alternate`,
