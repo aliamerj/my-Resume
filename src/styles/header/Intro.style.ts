@@ -4,7 +4,6 @@ import { styled } from "@mui/material/styles";
 export const ContainerStyle = styled("div")(({ theme }) => ({
   display: "flex",
   [theme.breakpoints.down("md")]: {
-    padding: "auto",
     flexDirection: "column",
   },
   [theme.breakpoints.up("md")]: {
