@@ -2,7 +2,6 @@ import { keyframes } from "@emotion/react";
 import { styled } from "@mui/material/styles";
 
 export const ContainerStyle = styled("div")(({ theme }) => ({
-  padding: "40px",
   display: "flex",
   [theme.breakpoints.down("md")]: {
     padding: "auto",
@@ -11,6 +10,7 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
   [theme.breakpoints.up("md")]: {
     display: "flex",
     height: "650px",
+    padding: "40px",
   },
 }));
 
