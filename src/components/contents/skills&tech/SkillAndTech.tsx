@@ -15,14 +15,16 @@ import {
 
 const SkillAndTech = () => {
   return (
-    <>
+    <div style={{ border: "1px solid", marginBottom: "auto" }}>
       <Accordion>
         <AccordionSummary
           sx={{
-            backgroundColor: "AntiqueWhite",
+            backgroundColor: "#2e7d32",
+            color: "#fff",
           }}
         >
           <SkillTitle>
+            <i>Click Here</i>
             <Typography component="h2" variant="inherit">
               Skills & technology
             </Typography>
@@ -43,7 +45,7 @@ const SkillAndTech = () => {
           </SkillsWrapper>
         </AccordionDetails>
       </Accordion>
-    </>
+    </div>
   );
 };
 

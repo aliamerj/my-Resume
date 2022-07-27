@@ -13,20 +13,28 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
 }));
 
 export const TextStyle = styled("div")(({ theme }) => ({
-  width: "65%",
+  marginTop: "0px",
+  width: "100%",
   [theme.breakpoints.down("md")]: {
     width: "100%",
   },
 }));
-export const TitleStyle = styled("h1")(() => ({
+export const TitleStyle = styled("h1")(({ theme }) => ({
+  marginTop: "0",
   fontSize: "50px",
-  fontWeight: "600px",
+  fontFamily: "sans-serif",
+  fontStyle: "italic",
+  fontWeight: "revert",
+  [theme.breakpoints.down("md")]: {
+    fontSize: "40px",
+  },
 }));
 
-export const DescriptionStyle = styled("p")(({ theme }) => ({
-  margin: "20px 0px",
+export const DescriptionStyle = styled("div")(({ theme }) => ({
+  fontSize: "23px",
+  fontFamily: "revert-layer",
   [theme.breakpoints.down("md")]: {
-    display: "none",
+    fontSize: "20px",
   },
 }));
 

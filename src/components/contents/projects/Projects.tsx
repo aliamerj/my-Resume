@@ -7,7 +7,6 @@ import {
   ListStyle,
 } from "../../../styles/contents/projects.style";
 import SingleProject from "./Project.single";
-import { CardsContentStyle } from "../../../styles/contents/project.style";
 
 const Projects = () => {
   return (
@@ -15,9 +14,20 @@ const Projects = () => {
       <TextStyle>
         <TitleStyle>My projects & work experience </TitleStyle>
         <DescriptionStyle>
-          I've worked on many projects, but I chose these specific projects that
-          reflect my work experience and capability. I tried to make each
-          project uses a different technology or a different implementation
+          <p>
+            I've worked on many projects, but I chose these specific projects
+            that reflect my work experience and capability. I tried to make each
+            project uses a different technology or a different implementation.
+          </p>
+          <p
+            style={{
+              fontFamily: "cursive",
+              backgroundColor: "#266b29",
+              color: "#fff",
+            }}
+          >
+            All these projects, I've built them from scratch.
+          </p>
         </DescriptionStyle>
       </TextStyle>
       <ListStyle>

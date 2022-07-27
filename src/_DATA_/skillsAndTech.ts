@@ -40,24 +40,29 @@ export const mySkills = [
   },
   {
     id: 8,
+    title: "@emotion",
+    image: "https://emotion.sh/logo-48x48.png",
+  },
+  {
+    id: 9,
     title: "Git & Github",
     image:
       "https://images.velog.io/images/jongbeen_song/post/174477f5-01a8-4e7a-94c8-4801e36dbb06/111111111.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "Java",
     image:
       "https://logoeps.com/wp-content/uploads/2011/06/java-logo-vector.png",
   },
   {
-    id: 10,
+    id: 11,
     title: "Testing",
     image:
       "https://banner2.cleanpng.com/20180408/bhe/kisspng-software-testing-test-automation-manual-testing-hp-job-5aca3421c05d03.7145920615232010577879.jpg",
   },
   {
-    id: 11,
+    id: 12,
     title: "Good communication skills",
     image:
       "https://mpng.subpng.com/20180409/cjq/kisspng-computer-icons-real-communication-an-introduction-comunication-5acb38f92c6055.5324817615232678331818.jpg",

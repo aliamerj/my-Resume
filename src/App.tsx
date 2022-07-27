@@ -1,12 +1,12 @@
-import Content from "./components/contents/Content";
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import Content from "./sections/Content";
+import Footer from "./sections/Footer";
+import Header from "./sections/Header";
 import "./styles/style.css";
 
 function App() {
   return (
     <>
-      <div style={{ backgroundColor: "MintCream" }}>
+      <div>
         <Header />
         <br />
         <hr />

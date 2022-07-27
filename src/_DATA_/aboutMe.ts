@@ -1,7 +1,7 @@
 export const aboutMe: { subTitle: string; story: string; arther: string } = {
   subTitle:
-    "It is a long established fact that a reader will be distracted by the readable content.",
+    "I've been training for more than two years to become a successful web developer and I still want to learn more because I believe that websites are the future.",
   story:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor in reprehende.",
+    "Junior full stack developer with a passion for learning new technologies and working with teams to create user-friendly web applications. I have a lot of experience in web development, including front-end and back-end technologies. Eager to develop skills in a fast-paced environment and contribute to the success of a company.",
   arther: "Ali Amer",
 };

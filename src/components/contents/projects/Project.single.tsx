@@ -93,6 +93,27 @@ const SingleProject = ({ project }: { project: Project }) => {
                       ))}
                     </ul>
                   ) : null}
+                  {project.techUsed ? (
+                    <ul
+                      style={{ padding: "0", margin: "0", marginBottom: "5px" }}
+                    >
+                      <p style={{ marginTop: "2px", marginBottom: "4px" }}>
+                        I used for this project :
+                      </p>
+                      {project.techUsed?.map((tech) => (
+                        <div
+                          key={tech}
+                          style={{
+                            display: "flex",
+                            marginLeft: "22px",
+                            fontSize: "0.8em",
+                          }}
+                        >
+                          <li>{tech}</li>
+                        </div>
+                      ))}
+                    </ul>
+                  ) : null}
                 </div>
               </OtherInfoStyle>
             </CardOverlayStyle>

@@ -5,9 +5,9 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
   marginTop: "15px",
   marginBottom: "20px",
   ":hover": {
-    boxShadow: "15px 10px 66px 11px rgba(0,0,0,0.8)",
-    WebkitBoxShadow: "15px 10px 66px 11px rgba(0,0,0,0.8)",
-    MozBoxShadow: "15px 10px 66px 11px rgba(0,0,0,0.8)",
+    boxShadow: "-36px -88px 159px -41px rgba(0,0,0,0.48)",
+    WebkitBoxShadow: "-36px -88px 159px -41px rgba(0,0,0,0.48)",
+    MozBoxShadow: "-36px -88px 159px -41px rgba(0,0,0,0.48)",
   },
   [theme.breakpoints.down("md")]: {
     width: "100%",
@@ -94,7 +94,7 @@ export const CardHeaderTitleStyle = styled("h2")(() => ({
 }));
 
 export const CardDescriptionStyle = styled("p")(() => ({
-  fontSize: "1.3em",
+  fontSize: "1.2em",
   padding: "auto",
   margin: "0",
   color: "#6A515E",

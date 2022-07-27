@@ -73,7 +73,7 @@ export const myCertificates: Certfication[] = [
     link: "#",
   },
   {
-    id: 11,
+    id: 12,
     name: "Complete Node.js Developer in 2022: Zero to Mastery",
     photo:
       "https://i.postimg.cc/4ywJmBfv/Complete-Node-js-Developer-in-2022.png",

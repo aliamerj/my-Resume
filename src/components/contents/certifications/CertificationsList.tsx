@@ -15,6 +15,7 @@ import {
   DescriptionStyle,
 } from "../../../styles/contents/projects.style";
 import Certfications from "./Certfications";
+import { SkillTitle } from "../../../styles/contents/skillAndTech.style";
 
 const CertificationsList = () => {
   return (
@@ -32,17 +33,21 @@ const CertificationsList = () => {
       <Accordion>
         <AccordionSummary
           sx={{
-            backgroundColor: "Beige",
+            backgroundColor: "#2e7d32",
+            color: "#fff",
           }}
         >
-          <Typography component="h2" variant="inherit" marginX="50%">
-            👇
-          </Typography>
+          <SkillTitle>
+            <i>Click Here </i>
+            <Typography component="h2" variant="inherit">
+              Skills & technology
+            </Typography>
+          </SkillTitle>
         </AccordionSummary>
         <AccordionDetails>
           <CertificateContainer>
             {myCertificates.map((cert) => (
-              <Certfications key={cert.id} certificate={cert}  />
+              <Certfications key={cert.id} certificate={cert} />
             ))}
           </CertificateContainer>
         </AccordionDetails>

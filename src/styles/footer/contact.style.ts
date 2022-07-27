@@ -47,18 +47,16 @@ export const RightStyle = styled("div")(() => ({
   alignItems: "center",
   justifyContent: "center",
 }));
-export const DescriptionStyle = styled("p")(({ theme }) => ({
+export const DescriptionStyle = styled("p")(() => ({
   fontWeight: "200",
-  [theme.breakpoints.down("md")]: {
-    display: "none",
-  },
 }));
 export const FormStyle = styled("form")(({ theme }) => ({
   marginTop: "20px",
+  width: "100%",
   [theme.breakpoints.down("md")]: {
     marginTop: "0px",
     display: "flex",
-    flexWrap: "wrap",
+    flexDirection: "column",
   },
 }));
 
@@ -67,11 +65,11 @@ export const InputStyle = styled("input")(({ theme }) => ({
   height: "50px",
   border: "none",
   borderBottom: "1px solid black",
-  margin: "10px 0px",
+  margin: "10px 1px",
   fontSize: "14px",
   paddingLeft: "10px",
   [theme.breakpoints.down("md")]: {
-    width: "35%",
+    width: "100%",
     height: "40px",
     margin: "10px",
     marginLeft: 0,
@@ -82,6 +80,7 @@ export const TextareaStyle = styled("textarea")(() => ({
   margin: "10px 0px",
   fontSize: "14px",
   paddingLeft: "10px",
+  resize: "none",
 }));
 export const ButtonStyle = styled("button")(({ theme }) => ({
   border: "none",

@@ -10,6 +10,7 @@ import {
   TitleStyle,
   TitleWrapperStyle,
   WelcomeStyle,
+  WrapperImageStyle,
   WrapperLeftStyle,
 } from "../../../styles/header/Intro.style";
 import Me from "../../../image/me.png";
@@ -34,16 +35,18 @@ const Intro = () => {
             </TitleStyle>
             <DescriptionStyle>
               I can design and develop any type of websites you ask for , modern
-              websites, web services and online stores. And all my websites are
-              fast , responsible, maintainable.
+              websites, web services.{"\n"} And all my websites are Secure, Fast
+              , Responsible, Maintainable.
             </DescriptionStyle>
           </WrapperLeftStyle>
         </LeftStyle>
 
         <RightStyle>
-          <ImageContainerStyle>
-            <ImageStyle src={Me} />
-          </ImageContainerStyle>
+          <WrapperImageStyle>
+            <ImageContainerStyle>
+              <ImageStyle src={Me} />
+            </ImageContainerStyle>
+          </WrapperImageStyle>
         </RightStyle>
       </ContainerStyle>
     </div>
