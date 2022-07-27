@@ -9,7 +9,7 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
     WebkitBoxShadow: "-36px -88px 159px -41px rgba(0,0,0,0.48)",
     MozBoxShadow: "-36px -88px 159px -41px rgba(0,0,0,0.48)",
   },
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down("lg")]: {
     width: "100%",
   },
 }));

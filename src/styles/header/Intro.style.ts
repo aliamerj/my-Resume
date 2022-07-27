@@ -2,8 +2,10 @@ import { keyframes } from "@emotion/react";
 import { styled } from "@mui/material/styles";
 
 export const ContainerStyle = styled("div")(({ theme }) => ({
+  padding: "40px",
   display: "flex",
   [theme.breakpoints.down("md")]: {
+    padding: "auto",
     flexDirection: "column",
   },
   [theme.breakpoints.up("md")]: {
@@ -14,19 +16,18 @@ export const ContainerStyle = styled("div")(({ theme }) => ({
 
 export const LeftStyle = styled("div")(({ theme }) => ({
   flex: 1,
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
-  [theme.breakpoints.down("md")]: {
-    height: "10px",
-  },
+  width: "100%",
+  height: "100%",
 }));
 export const WrapperLeftStyle = styled("div")(({ theme }) => ({
-  padding: "50px",
-  height: "65%",
+  width: "100%",
+  height: "100%",
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
+  clipPath:
+    "polygon(0 0, 100% 0, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%)",
+
   [theme.breakpoints.down("md")]: {
     padding: "10px",
     alignItems: "center",
@@ -45,11 +46,10 @@ export const NameStyle = styled("h1")(() => ({
   fontSize: "60px",
 }));
 export const TitleStyle = styled("div")(() => ({
-  height: "50vh",
+  height: "40px",
   overflow: "hidden",
 }));
 export const TitleWrapperStyle = styled("div")(({ theme }) => ({
-  height: "100%",
   animation: `${move} 9s ease-in-out infinite alternate`,
   [theme.breakpoints.down("md")]: {
     animation: `${moveMobile} 9s ease-in-out infinite alternate`,
@@ -104,7 +104,6 @@ export const ImageStyle = styled("img")(() => ({
 }));
 
 export const ImageContainerStyle = styled("div")(() => ({
-  display: "flex",
   width: "100%",
   height: "100%",
   clipPath:
@@ -115,7 +114,4 @@ export const DescriptionStyle = styled("p")(({ theme }) => ({
   color: "#373838",
   fontFamily: "inherit",
   fontStyle: "initial",
-  [theme.breakpoints.down("md")]: {
-    marginTop: "0px",
-  },
 }));
