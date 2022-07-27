@@ -80,7 +80,7 @@ const moveMobile = keyframes({
   },
 });
 
-export const TitleItemStyle = styled("div")(({ theme }) => ({
+export const TitleItemStyle = styled("div")(() => ({
   height: "50px",
   fontSize: "30px",
   fontWeight: "bold",
@@ -90,34 +90,27 @@ export const TitleItemStyle = styled("div")(({ theme }) => ({
 }));
 export const RightStyle = styled("div")(() => ({
   flex: 1,
-  position: "relative",
-  width: "80%",
+  width: "100%",
 }));
 export const ImageStyle = styled("img")(() => ({
   marginTop: "2%",
   width: "100%",
   height: "100%",
   objectFit: "contain",
-}));
-export const WrapperImageStyle = styled("div")(({ theme }) => ({
-  [theme.breakpoints.down("md")]: {
-    display: "flex",
-    width: "96.5vw",
-    paddingRight: "0px",
-  },
-}));
-export const ImageContainerStyle = styled("div")(({ theme }) => ({
-  width: "85%",
   margin: "auto",
-  clipPath: "polygon(100% 0, 100% 50%, 100% 100%, 26% 100%, 0 53%, 26% 0)",
-  [theme.breakpoints.down("md")]: {
-    width: "100%",
-  },
+}));
+
+export const ImageContainerStyle = styled("div")(() => ({
+  display: "flex",
+  width: "100%",
+  height: "100%",
+  clipPath:
+    "polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)",
 }));
 
 export const DescriptionStyle = styled("p")(({ theme }) => ({
   color: "#373838",
-  fontFamily: "fantasy",
+  fontFamily: "inherit",
   fontStyle: "initial",
   [theme.breakpoints.down("md")]: {
     marginTop: "0px",

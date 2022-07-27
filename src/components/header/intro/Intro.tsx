@@ -10,7 +10,6 @@ import {
   TitleStyle,
   TitleWrapperStyle,
   WelcomeStyle,
-  WrapperImageStyle,
   WrapperLeftStyle,
 } from "../../../styles/header/Intro.style";
 import Me from "../../../image/me.png";
@@ -40,13 +39,10 @@ const Intro = () => {
             </DescriptionStyle>
           </WrapperLeftStyle>
         </LeftStyle>
-
         <RightStyle>
-          <WrapperImageStyle>
-            <ImageContainerStyle>
-              <ImageStyle src={Me} />
-            </ImageContainerStyle>
-          </WrapperImageStyle>
+          <ImageContainerStyle>
+            <ImageStyle src={Me} />
+          </ImageContainerStyle>
         </RightStyle>
       </ContainerStyle>
     </div>

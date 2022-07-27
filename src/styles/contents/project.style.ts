@@ -85,20 +85,30 @@ export const CardHeaderTextStyle = styled("div")(() => ({
   flexWrap: "wrap",
 }));
 
-export const CardHeaderTitleStyle = styled("h2")(() => ({
+export const CardHeaderTitleStyle = styled("h2")(({ theme }) => ({
   fontSize: "2.3em",
   padding: "auto",
   margin: "0",
   marginLeft: "11px",
   color: "#6A515E",
+  [theme.breakpoints.down("md")]: {
+    fontSize: "1.7em",
+  },
+  [theme.breakpoints.down("sm")]: {
+    fontSize: "1.3em",
+  },
 }));
 
-export const CardDescriptionStyle = styled("p")(() => ({
+export const CardDescriptionStyle = styled("span")(({ theme }) => ({
   fontSize: "1.2em",
   padding: "auto",
   margin: "0",
   color: "#6A515E",
   marginBottom: "0px",
+  clear: "both",
+  [theme.breakpoints.down("md")]: {
+    fontSize: "1em",
+  },
 }));
 export const OtherInfoStyle = styled("div")(() => ({
   borderTop: "1px solid #6A515E",
