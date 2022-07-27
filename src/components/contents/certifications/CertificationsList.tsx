@@ -40,7 +40,7 @@ const CertificationsList = () => {
           <SkillTitle>
             <i>Click Here </i>
             <Typography component="h2" variant="inherit">
-              Skills & technology
+              My Certifications
             </Typography>
           </SkillTitle>
         </AccordionSummary>

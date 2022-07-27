@@ -88,9 +88,12 @@ export const TitleItemStyle = styled("div")(() => ({
   display: "flex",
   alignItems: "center",
 }));
-export const RightStyle = styled("div")(() => ({
+export const RightStyle = styled("div")(({ theme }) => ({
   flex: 1,
   width: "100%",
+  [theme.breakpoints.down("sm")]: {
+    display: "none",
+  },
 }));
 export const ImageStyle = styled("img")(() => ({
   marginTop: "2%",
