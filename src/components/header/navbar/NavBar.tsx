@@ -13,7 +13,7 @@ const NavBar = () => {
           <Button
             style={{ marginRight: "3%" }}
             onClick={() =>
-              window.open("https://github.com/joeamerson", "_blank")
+              window.open("https://github.com/jeffAmerson", "_blank")
             }
           >
             <GitHub color="secondary" />
