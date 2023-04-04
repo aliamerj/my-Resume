@@ -29,19 +29,20 @@ const Intro = () => {
                   <h3>Full Stack Web Developer</h3>
                 </TitleItemStyle>
                 <TitleItemStyle>
+                  <h3>Mobile Developer</h3>
+                </TitleItemStyle>
+                <TitleItemStyle>
                   <h3>Software Engineering</h3>
                 </TitleItemStyle>
               </TitleWrapperStyle>
             </TitleStyle>
             <AlterTextStyle>
               <TitleItemStyle>
-                <h3>I'm Full Stack Web Developer</h3>
+                <h3>I'm Full Stack Web Developer and mobile app </h3>
               </TitleItemStyle>
             </AlterTextStyle>
             <DescriptionStyle>
-              I can design and develop any type of websites you ask for , modern
-              websites, web services.{"\n"} And all my websites are Secure, Fast
-              , Responsible, Maintainable.
+            developing Secure, Fast, Responsible, Maintainable, and modern websites and web services or mobile apps.
             </DescriptionStyle>
           </WrapperLeftStyle>
         </LeftStyle>

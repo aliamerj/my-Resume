@@ -19,7 +19,7 @@ const Contact = () => {
             <ContainerInfoStyle>
               <InfoItemStyle>
                 <EmailRounded />
-                <InfoWayStyle>job@aliamer.me</InfoWayStyle>
+                <InfoWayStyle>aliamer19ali@gmail.com</InfoWayStyle>
               </InfoItemStyle>
             </ContainerInfoStyle>
           </LeftStyle>

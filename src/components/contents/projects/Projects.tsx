@@ -16,8 +16,8 @@ const Projects = () => {
         <DescriptionStyle>
           <p>
             I've worked on many projects, but I chose these specific projects
-            that reflect my work experience and capability. I tried to make each
-            project uses a different technology or a different implementation.
+            that reflect my work experience and capability. I tried to bulid each
+            project with a different technology or a different implementation.
           </p>
           <p
             style={{
