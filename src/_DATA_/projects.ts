@@ -1,8 +1,18 @@
 import { Project } from "../Types/types";
 
-export const myPrjects: Project[] = [
+export const myProjects: Project[] = [
   {
     id: 1,
+    img: "https://langpocket.pro/images/hero-app-screens-1600.png",
+    link: "https://langpocket.pro",
+    name: "LangPocket",
+    techUsed: ["Flutter", "AWS Amplify"],
+    language: "https://cdn.worldvectorlogo.com/logos/flutter.svg",
+    description:
+      "Mobile app , offers a dynamic and engaging learning experience with its comprehensive practice features. Sharpen your language skills and reinforce your vocabulary through a lot of practice exercises",
+  },
+  {
+    id: 2,
     img: "https://i.ibb.co/YZKCKjm/p1.png",
     link: "https://github.com/aliamerj/share_Files_system",
     name: "Share File System",
@@ -14,7 +24,7 @@ export const myPrjects: Project[] = [
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://i.ibb.co/80C7TXm/p2.png",
     link: "https://github.com/aliamerj/chat-app",
     name: "Chat App",
@@ -26,7 +36,7 @@ export const myPrjects: Project[] = [
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
   },
   {
-    id: 3,
+    id: 4,
     img: "https://i.ibb.co/FsD9NWn/2.png",
     link: "https://github.com/aliamerj/xy-store",
     name: "XY-Store",
@@ -44,7 +54,7 @@ export const myPrjects: Project[] = [
       "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg",
   },
   {
-    id: 4,
+    id: 5,
     img: "https://i.ibb.co/WtKb9nN/pt.png",
     link: "https://github.com/aliamerj/typing_fast_training",
     name: "Type Fast Training",
@@ -55,7 +65,7 @@ export const myPrjects: Project[] = [
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
   },
   {
-    id: 5,
+    id: 6,
     img: "https://i.ibb.co/QpBqFK1/p4.png",
     link: "https://github.com/aliamerj/snakeGameWithTypescript",
     name: "Snake Game",
@@ -66,7 +76,7 @@ export const myPrjects: Project[] = [
       "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
   },
   {
-    id: 6,
+    id: 7,
     img: "https://i.ibb.co/sH3h19c/6p.png",
     link: "https://github.com/aliamerj/My-SimpleDrawingPlayerx",
     name: "Simple Drawing Player",

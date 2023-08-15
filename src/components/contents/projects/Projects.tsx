@@ -1,4 +1,4 @@
-import { myPrjects } from "../../../_DATA_/projects";
+import { myProjects } from "../../../_DATA_/projects";
 import {
   ContainerStyle,
   TextStyle,
@@ -15,9 +15,11 @@ const Projects = () => {
         <TitleStyle>My projects & work experience </TitleStyle>
         <DescriptionStyle>
           <p>
-            I've worked on many projects, but I chose these specific projects
-            that reflect my work experience and capability. I tried to bulid each
-            project with a different technology or a different implementation.
+            In my career, I've successfully executed numerous projects, each
+            selected to demonstrate the breadth of my expertise and
+            adaptability. Each project was deliberately crafted using diverse
+            technologies and methodologies to showcase my multifaceted
+            capabilities.
           </p>
           <p
             style={{
@@ -31,7 +33,7 @@ const Projects = () => {
         </DescriptionStyle>
       </TextStyle>
       <ListStyle>
-        {myPrjects.map((project) => (
+        {myProjects.map((project) => (
           <SingleProject key={project.id} project={project} />
         ))}
       </ListStyle>

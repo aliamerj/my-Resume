@@ -8,12 +8,14 @@ export const mySkills = [
   {
     id: 2,
     title: "Javascript & typescript",
-    image: "https://api.workinggears.com/storage/yuxa9EAfarIcX9EK8Ei1JSjwRnP7e0-metaanMtdHMuanBn-.jpg",
+    image:
+      "https://api.workinggears.com/storage/yuxa9EAfarIcX9EK8Ei1JSjwRnP7e0-metaanMtdHMuanBn-.jpg",
   },
   {
     id: 3,
     title: "React js/ ts",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
   },
   {
     id: 4,
@@ -70,8 +72,13 @@ export const mySkills = [
   {
     id: 13,
     title: "Flutter",
-    image:
-      "https://cdn.worldvectorlogo.com/logos/flutter.svg",
+    image: "https://cdn.worldvectorlogo.com/logos/flutter.svg",
+  },
+  {
+    id: 14,
+    title: "Ruby on Rails",
+    Image:
+      "https://w7.pngwing.com/pngs/782/228/png-transparent-ruby-on-rails-rubygems-amazon-dynamodb-ruby-text-logo-ruby-thumbnail.png",
   },
   {
     id: 14,
