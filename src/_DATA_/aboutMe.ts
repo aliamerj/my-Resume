@@ -1,7 +1,6 @@
 export const aboutMe: { subTitle: string; story: string; arther: string } = {
-  subTitle:
-    "I am an IT student at Demadov University in Russia",
+  subTitle: "A software engineering student from Demadov University, Russia",
   story:
-    "I'm software engineer with a passion for learning new technologies and working with team to create user-friendly web applications. I have a lot of experience in web development, including front-end and back-end technologies. Eager to develop skills in a fast-paced environment and contribute to the success of a company.",
+    "specialize in web development with comprehensive knowledge of both front-end and back-end technologies. My passion for continuous learning and team collaboration has driven me to produce user-centric web applications. I am keen to harness my skills in a dynamic environment, ensuring my contributions significantly impact a company's success.",
   arther: "Ali Amer",
 };
